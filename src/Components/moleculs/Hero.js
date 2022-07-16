@@ -1,5 +1,5 @@
 import React from "react";
-import ImageHero from "../img/header.png";
+import ImageHero from "../../img/header.png";
 
 function Hero() {
   return (
@@ -35,20 +35,6 @@ function Hero() {
               height="500"
               className="max-w-full mx-auto"
             />
-            <span className="absolute -translate-x-1/2 -translate-y-20 -bottom-0 -z-10 left-1/2 md:scale-125">
-              <svg
-                width="400"
-                height="400"
-                viewBox="0 0 200 200"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill="#14b8a6"
-                  d="M64.9,-23.4C70.1,-4.9,50.8,19.2,26.2,37.5C1.5,55.7,-28.4,68.1,-46.1,56.8C-63.7,45.6,-68.9,10.7,-59.2,-14C-49.5,-38.7,-24.7,-53.2,2.5,-54.1C29.8,-54.9,59.6,-42,64.9,-23.4Z"
-                  transform="translate(100 100) scale(1.2)"
-                />
-              </svg>
-            </span>
           </div>
         </div>
       </div>

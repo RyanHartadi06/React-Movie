@@ -1,6 +1,6 @@
 import React from "react";
-import Hero from "./Components/Hero.js";
-import Content from "./Components/Content.js";
+import Hero from "./Components/moleculs/Hero.js";
+import Content from "./Components/moleculs/Content.js";
 function App() {
   return (
     <div>
